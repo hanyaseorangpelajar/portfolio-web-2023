@@ -18,7 +18,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 30px 100px;
+  padding: 20px 20px;
   display: flex;
   align-items: center;
   z-index: 10000;
@@ -37,6 +37,7 @@ header .logo{
   border-radius: 10px;
   padding: 5px;
 }
+
 
 section{
   position: relative;
