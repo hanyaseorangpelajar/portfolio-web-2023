@@ -161,6 +161,10 @@ span{
   margin-bottom: 100px;
 }
 
+.caption p{
+  font-size: 20px;
+}
+
 footer{
   color: white;
   width: 100%;
