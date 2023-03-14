@@ -4,7 +4,6 @@ let mountains_behind = document.getElementById('mountains_behind');
 let text = document.getElementById('text');
 let btn = document.getElementById('btn');
 let mountains_front = document.getElementById('mountains_front');
-let header = document.querySelector('header');
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
     stars.style.left= value * 0.25 + 'px';
@@ -17,6 +16,7 @@ window.addEventListener('scroll', function(){
     header.style.top = value * 0.5 + 'px';
 })
 
-if (/index/.test(navigator.userAgent)) {
-    alert("Halaman ini hanya dapat dibuka dalam tampilan desktop.");
- }
+const toggle = document.getElementById('toggle')
+const nav = document.getElementById('nav')
+
+toggle.addEventListener('click', () => nav.classList.toggle('active'))
