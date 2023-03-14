@@ -40,7 +40,7 @@ header{
 
 nav {
   position: absolute;
-  right: 0px;
+  right: 0%;
   background-color: #fff;
   padding: 20px;
   width: 80px;
@@ -269,23 +269,5 @@ footer{
   }
   100%{
     background-position: 0% 50%;
-  }
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 100%;
-  }
-  to {
-    opacity: 0%;
-  }
-}
-
-@keyframes fade-in {
-  from {
-    opacity: 0%;
-  }
-  to {
-    opacity: 100%;
   }
 }
