@@ -14,7 +14,7 @@ body{
 }
 
 header{
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -269,5 +269,23 @@ footer{
   }
   100%{
     background-position: 0% 50%;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
   }
 }
